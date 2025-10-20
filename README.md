@@ -6,28 +6,29 @@ This repository contains the source code for a small, personal website I built (
 
 **Please Note:** This is a public archive and is **not actively maintained**. The code is preserved here for historical and personal reference and **does not reflect my current skill level.**
 
-This was an early web development project. The code is provided as-is, and any dependencies (if any) are likely outdated.
+This was an early web development project. The code is provided as-is.
 
 ---
 
 ## Project Concept: The "Personal Touch"
 
-The core idea was to create a reusable birthday webpage that could be customized for each person.
+The core idea was to create a unique, customized greeting for each person.
 
 ### How It Works
 
-Instead of creating a separate page for everyone, the site was designed to dynamically pull information (like the recipient's name) and display it on the page.
+Instead of a generic page, this website was manually updated for each friend's or family member's birthday.
 
-1.  **Custom Link:** The sender (myself) would craft a special URL for the birthday person (e.g., `.../birthday.html?name=Alex`).
-2.  **Dynamic Content:** The JavaScript on the page would read the `name` (or other details) from the URL's query parameters.
-3.  **Personalized Greeting:** The script would then inject this name directly into the page's HTML, so the visitor would be greeted with a message like "Happy Birthday, Alex!" alongside any animations or special messages.
+1.  **Code Customization:** Before a person's birthday, I would directly edit the HTML and/or JavaScript files.
+2.  **Personal Details:** I would hard-code the person's name and add any other custom messages or personal touches directly into the source code.
+3.  **Deploy:** I would then commit and push these changes to make the personalized site live for their birthday.
+4.  **Revert:** After their birthday, I would revert the changes or prepare the site for the next person.
 
-This allowed a single webpage to provide a custom-feeling experience for many different people.
+This manual process allowed for complete creative control and a truly personal greeting for each individual.
 
 ### Technologies Used
 
 This project is a simple, front-end-only site built with:
 
-* **HTML5:** For the page structure.
+* **HTML5:** For the page structure and personalized content.
 * **CSS3:** For styling and visual elements (e.g., animations, colors, layout).
-* **JavaScript (ES6+):** For the core logic of reading URL parameters and dynamically updating the page content.
+* **JavaScript (ES6+):** For any dynamic effects or animations on the page.

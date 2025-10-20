@@ -1,2 +1,2 @@
 # Birthday
-this is website for my mother to wish her a very Happy Birthday
+Website i Made during covid days to wish people a happy birthday (With a personal Touch :))
